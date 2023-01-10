@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>news</title>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="./js/insertJavascript.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #news_body{
+            border: 1px red solid;
+            width: 100%;
+            height: 800px;
+        }
+
+        #news_body > header{
+            width: 100%;
+            position: absolute;
+            box-shadow: 0 0 2px black;
+        }
+
+        #news_body > section{
+            border: 1px blue solid;
+            width: 800px;
+            height: 700px;
+            margin: 0 auto;
+            margin-top: 120px;
+        }
+    </style>
+</head>
+
+<body id="news_body">
+    <header>
+        <div data-include="header.html"></div>
+    </header>
+    <section>
+        <h1>뉴스 자리 -> DB 받아서 사이트로 연결 예정</h1>
+
+
+
+    </section>
+    <footer>
+        <div data-include="footer.html"></div>
+    </footer>
+    <script>
+        includeHTML();
+    </script>
+    <script src="./js/header.js"></script>
+</body>
+
+</html>

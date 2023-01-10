@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_body {
+    border: 1px solid red;
+    width: 100%;
+    height: 120px;
+}
+
+/* the bull camp */
+.header_body_h1div {
+    width: 100%;
+    height: 35px;
+    background-color: black;
+}
+
+.header_body_h1 {
+    float: right;
+    color: white;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+
+/* 메인 메뉴 */
+.header_body_main_menu {
+    width: 100%;
+    height: 80px;
+}
+
+.header_body_main_nav {
+    width: 500px;
+    height: 80px;
+    float: left;
+    
+}
+
+/* 로고 */
+.header_logo {
+    height: 75px;
+    margin-left: 25px;
+    float: left;
+}
+
+/* 메인 메뉴 버튼 */
+.header_body_main_nav button {
+    width: 90px;
+    height: 60px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: white;
+    font-weight: bold;
+    border: none;
+}
+/*메인 메뉴에 마우스 올렸을때 색 변화*/
+.header_body_main_nav button:hover {
+    color: rgb(248, 166, 71);
+}
+
+.header_body_main_nav_btn_Part {
+    width: 130px !important;
+}
+
+.header_body_main_nav_btn_News {
+    width: 60px !important;
+}
+
+.header_body_main_nav_btn_Support {
+    width: 90px !important;
+}
+
+
+/* 로그인 버튼 */
+.header_body_main_menu_btn_login {
+    float: right;
+    width: 110px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(248, 166, 71);
+    border-radius: 15px;
+    margin: 17px;
+    border: none;
+}
+.header_body_main_menu_btn_login:hover{
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+/* 프로그램 하위 메뉴 */
+.header_body_program_section {
+    width: 100%;
+    height: 230px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.63);
+    display: none;
+}
+.header_body_program_section_margin{
+    margin: 0 auto;
+    width: 800px;
+}
+
+.header_body_program_section>div>div {
+    float: left;
+    width: 140px;
+    height: 190px;
+    text-align: center;
+    vertical-align: bottom !important;
+    margin: 20px 10px 0 10px;
+    border-radius: 15px;
+}
+.header_body_program_section_margin > div:hover{
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.897);
+}
+
+/*프로그램 하위 메뉴 사진 크기 조절*/
+
+.header_body_program_section>div>div>img {
+    padding: 0;
+    width: 130px;
+}
+.header_body_program_section>div>div>button {
+    font-weight: bold;
+    color: rgb(248, 166, 71);
+    background-color: white;
+    border: 0;
+    font-size: 18px;
+}
+/*보디빌딩*/
+.header_body_program_section_bodybuild > img{
+    margin-top: 10px;
+}
+.header_body_program_section_bodybuild > button{
+    display: block;
+    padding: 0;
+    margin-top: 0px;
+    width: 100%;
+    
+}
+
+/*파맆*/
+.header_body_program_section_powerlift > img{
+    margin-top: 18px;
+}
+.header_body_program_section_powerlift > button{
+    display: block;
+    padding: 0;
+    margin-top: 17px;
+    width: 100%;
+    
+}
+
+/*크로스핏*/
+.header_body_program_section_crossfit > img{
+    margin-top: 20px;
+}
+.header_body_program_section_crossfit > button{
+    display: block;
+    padding: 0;
+    margin-top: 6px;
+    width: 100%;
+}
+
+/*맨몸운동*/
+.header_body_program_section_calisthenics > img{
+    margin-top: 50px;
+}
+.header_body_program_section_calisthenics > button{
+    display: block;
+    padding: 0;
+    margin-top: 30px;
+    width: 100%;
+}
+
+/*런닝*/
+.header_body_program_section_running > img{
+    margin-top: 15px;
+}
+.header_body_program_section_running > button{
+    display: block;
+    padding: 0;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.header_body_main_nav_btn_program:hover ~ .header_body_program_section{
+    display: block;
+}
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+/*------------------------------------------------------*/
+/* 운동 하위 메뉴 */
+.header_body_Excercise_section {
+    width: 100%;
+    height: 230px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.63);
+    display: none;
+}
+.header_body_Excercise_section_margin{
+    margin: 0 auto;
+    width: 800px;
+}
+
+.header_body_Excercise_section>div>div {
+    float: left;
+    width: 140px;
+    height: 190px;
+    text-align: center;
+    vertical-align: bottom !important;
+    margin: 20px 10px 0 10px;
+    border-radius: 15px;
+}
+.header_body_Excercise_section_margin > div:hover{
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.897);
+}
+
+/*프로그램 하위 메뉴 사진 크기 조절*/
+
+.header_body_Excercise_section>div>div>img {
+    padding: 0;
+    width: 130px;
+}
+.header_body_Excercise_section>div>div>button {
+    font-weight: bold;
+    color: rgb(248, 166, 71);
+    background-color: white;
+    border: 0;
+    font-size: 18px;
+}
+/*가슴*/
+.header_body_Excercise_section_chest > img{
+    margin-top: 10px;
+}
+.header_body_Excercise_section_chest > button{
+    display: block;
+    padding: 0;
+    margin-top: 9px;
+    width: 100%;
+}
+
+/*등*/
+.header_body_Excercise_section_back > img{
+    margin-top: 18px;
+}
+.header_body_Excercise_section_back > button{
+    display: block;
+    padding: 0;
+    margin-top: 0px;
+    width: 100%;
+}
+
+/*팔*/
+.header_body_Excercise_section_arm > img{
+    margin-top: 20px;
+}
+.header_body_Excercise_section_arm > button{
+    display: block;
+    padding: 0;
+    margin-top: -1px;
+    width: 100%;
+}
+
+/*다리*/
+.header_body_Excercise_section_leg > img{
+    margin-top: 20px;
+}
+.header_body_Excercise_section_leg > button{
+    display: block;
+    padding: 0;
+    margin-top: 0px;
+    width: 100%;
+}

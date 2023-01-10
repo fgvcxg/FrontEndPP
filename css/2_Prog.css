@@ -1,0 +1,109 @@
+ * {
+            margin: 0;
+            padding: 0;
+
+            box-sizing: border-box;
+        }
+
+
+        .Prog_bb_body {
+            width: 100%;
+            height: 1800px;
+            border: 1px solid red;
+
+        }
+        
+
+        .Prog_bb_body>header>div {
+            border-bottom: 1px solid black;
+            box-shadow: 0 0 2px black;
+        }
+
+        header {
+            width: 100%;
+            height: 120px;
+            z-index: 2;
+            position: absolute;
+
+        }
+
+
+        .Prog_bb_sec {
+            z-index: 1;
+            width: 100%;
+            height: 450px;
+
+        }
+
+
+        .Prog_bb_sec_div {
+            width: 1050px;
+            height: 400px;
+            margin: 0 auto;
+            margin-top: 150px;
+            border: 1px solid black;
+            box-shadow: 0 0 2px black;
+        }
+
+        .main_youtube {
+            z-index: 1;
+            width: 600px;
+            float: right;
+            padding: 5px;
+            box-shadow: 0 0 3px black;
+            border: 1px solid black;
+            margin: 30px 20px 0 0;
+        }
+
+        .Prog_bb_sec_div_text {
+            z-index: 1;
+            border: 1px solid blue;
+            width: 380px;
+            height: 320px;
+            float: left;
+            font-weight: 700;
+            font-size: 40px;
+            margin: 30px 0 0 20px;
+        }
+
+        #Prog_sec {
+            width: 100%;
+            height: 1100px;
+        }
+
+        #Prog_sec > div{
+            width: 1050px;
+            margin: 0 auto;
+        }
+
+        #Prog_sec > div >h1 {
+            font-size: 40px;
+            width: 300px;
+            margin: 0 0 10px 30px;
+
+        }
+
+        #Prog_sec_program {
+            width: 1050px;
+            height: 350px;
+            margin: 0 auto;
+        }
+
+        #Prog_sec_program>img {
+            height: 250px;
+            padding: 5px;
+            box-shadow: 0 0 3px black;
+            border: 1px solid black;
+            margin: 40px;
+            margin-left: 40px;
+        }
+
+        #Prog_sec_program>div {
+            width: 300px;
+            height: 270px;
+            padding: 5px;
+            margin: 30px;
+            float: right;
+            margin-right: 50px;
+            font-weight: bold;
+        }

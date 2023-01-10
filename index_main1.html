@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index_main</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+
+        /*비디오 전체 박스*/
+        .video_box {
+            width: 100%;
+            height: 700px;
+            overflow: hidden;
+            margin: 0px auto;
+            position: relative;
+        }
+
+        /* 비디오 박스의 로고 */
+        .video_logo {
+            position: absolute;
+            top: 15%;
+            width: 100%;
+            height: 120px;
+            text-align: center;
+        }
+
+        .video_logo>img {
+            margin: 0 auto;
+            width: 100px;
+            background-color: rgba(0, 0, 0, 0.61);
+            box-shadow: 0px 0px 3px black;
+            border-radius: 40px;
+        }
+
+        /* 비디오 박스의 글자 */
+        .video_intro {
+            position: absolute;
+            top: 40%;
+            width: 100%;
+        }
+
+        .video_intro>p {
+            margin-top: -24px;
+            text-align: center;
+            font-size: 48px;
+            color: #ffffff;
+            background-color: rgba(0, 0, 0, 0.61);
+        }
+
+        video {
+            width: 100%;
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="video_box">
+        <div class="video_logo">
+            <img src="./img/logo.jpg">
+        </div>
+        <div class="video_intro">
+            <p>
+                Welcome
+                <br>
+                If you really want it, it comes true.
+                <br>
+                The Bull Camp
+            </p>
+        </div>
+        <div>
+            <video muted autoplay loop>
+                <source src="./img/main_video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>

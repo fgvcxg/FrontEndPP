@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 밑에 버튼 자리 */
+/* .index_main2 {
+    width: 100%;
+    height: 800px;
+    border: 2px solid red;
+} */
+
+.index_main2_div1 {
+    margin: 0 auto;
+    width: 1100px;
+    height: 450px;
+}
+
+/* 아래 div */
+.index_main2_div2 {
+    margin: 0 auto;
+    width: 1100px;
+    height: 200px;
+}
+
+
+
+/*=========================공통=======================*/
+
+/* 가운데 큰 글씨 */
+.index_main2>div>div>p {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-shadow: 0 0 3px black;
+    font-weight: 900;
+    margin: 30px 0 0 80px;
+
+}
+
+/* 버튼들이 들어갈 자리 */
+#index_main2_btns {
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* 버튼 에 관한 것*/
+#index_main2_btns>div>button {
+    width: 190px;
+    height: 50px;
+    font-size: 23px;
+    float: left;
+    border-radius: 25px;
+    border: 2px solid rgb(248, 166, 71);
+    color: white;
+    background-color: rgba(240, 248, 255, 0);
+    margin: 10px;
+}
+
+#index_main2_btns>div>button:hover {
+    background-color: rgb(248, 166, 71);
+    text-shadow: 0 0 2px black;
+    transition-duration: 0.3s;
+}
+
+/* 프로그램 */
+.index_main2_programDiv {
+    width: 480px;
+    height: 350px;
+    float: left;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/index_main1_img01.jpg");
+    background-repeat: no-repeat;
+    background-size: 480px;
+    margin: 30px;
+
+}
+
+
+
+.index_main2_program>div>a {
+    float: left;
+}
+
+/* 운동 */
+.index_main2_ExerciseDiv {
+    width: 480px;
+    height: 350px;
+    float: left;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../img/index_main1_img02.jpg");
+    background-repeat: no-repeat;
+    background-size: 480px;
+    margin: 30px;
+}
+
+
+
+.index_main2_Exercise>div>a {
+    float: left;
+}
+
+
+
+/*=====================================================*/
+
+/*슬라이드 만들기*/
+.index_main2_slide {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    height: 120px;
+}
+
+/*문구*/
+.slide_text {
+    color: #000000;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+/*사람*/
+.slide_text1 {
+    color: #000000;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(253, 163, 60);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #000000;
+}
+
+.slide_fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+
+    width: 100%;
+    height: 200px;
+
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
