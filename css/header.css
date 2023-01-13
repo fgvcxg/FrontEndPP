@@ -310,7 +310,7 @@
     }
     .header_body_program_section_margin {
         border: 1px solid blue;
-        height: 400px;
+        height: 200px;
     }
     .header_body_program_section_margin > *{
         margin: 0px;
@@ -320,7 +320,6 @@
         margin-left: 0px !important;
         border: 1px solid blue;
         height: 25px !important;
-        width: 100%;
         float: left;
         border-radius: 0px !important;
     }
